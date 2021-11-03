@@ -1,0 +1,20 @@
+ver la version del ruby version manager
+	$ rvm --version
+
+ver la version de ruby
+	$ ruby -v
+
+ver los rubies instalados
+	$ rvm list
+
+para cambiar de version
+	$ rvm use jruby
+
+Cambiar a un a version de rubinius
+	$ rvm --default use rbx
+
+Comando rvm tiene muchas opciones
+	$ rvm
+
+Devuelve la ruta del binario del ruby que se esta ejecutando
+	$ which ruby

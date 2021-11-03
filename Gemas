@@ -1,0 +1,16 @@
+las gemas son porciones de codigo que nos permiten portar funcionalidades.
+
+estas se encuentran en rubygems.org
+
+ejemplo de una gema y de su instalacion
+
+	$ gem install rails
+
+Gema Bundler: es un admistrador de dependecias que nos va a permitir colocar todas 
+las gemas dentro de un gemfile.
+
+Gema Pry: Es una gema interactiva que nos permite actualizar y depurar nuestro codigo desde
+la terminal.
+
+Comando para actualizar el gem:
+	$ gem update --system

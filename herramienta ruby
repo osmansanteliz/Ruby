@@ -1,0 +1,11 @@
+ver el manual de ruby
+	$ man ruby
+
+ver las opciones 
+	$ruby --help
+
+ejecutar una sentencia
+	$ ruby -e 'puts "hola" '
+
+crear un nuevo archivo
+	$ subl hola_mundo.rb

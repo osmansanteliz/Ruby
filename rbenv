@@ -1,0 +1,44 @@
+
+############# Instalar rbenv y ruby #############
+
+para la instalacion de rbenv copiamos el repositorio desde github
+luego añadimos la variable a nuestro /.bash_profile
+
+	$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+
+comando que ayuda con los autocompletados:
+	$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+
+confirmar la instalacion de rbenv
+	$ type rbenv
+
+recordemos actualizar nuestro bash abriendo una nueva terminal
+
+Tambien debemos instalar ruby-build para instalar ruby
+copiando el repositorio de ruby-build
+
+ejecutamos
+	$ rbenv install
+
+ver todas las versiones que tenemos instaladas:
+	$ rbenv versions
+
+cambiar a una version especifica
+	$ rbenv global 2.1.4
+
+############## Comandos Comunes para administrar con rbenv ##############
+	
+muestras las opciones con el comando rbenv
+$ rbenv
+
+ver la version actual de ruby
+	$ rbenv version
+
+ver la ruta del bin que se ejecuta:
+	$ rbenv which ruby
+
+Especificar una version para un proyecto determinado. (carpeta y subcarpeta)
+	$ rbenv local 2.1.4
+
+Crear todo el set de shim para todas las gemas descargadas
+	$ rbenv rehash
