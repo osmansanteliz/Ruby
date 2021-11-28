@@ -9,5 +9,7 @@ def fizz_buzz(number)
     result += 'buzz'
   end
 
+  #si la variable esta vacia regresara nil, cambio hecho por archivo nuevo spec
+  return nil if result.empty?
   result
 end
